@@ -1,5 +1,5 @@
 parameters:
-  azureSubscription: 'KMD Momentum Internal'
+  azureSubscription: 'KMD Momentum Dev'
   environmentNameSuffix: phoenix
   environmentAutoDelete: false
   instanceId: p12345
