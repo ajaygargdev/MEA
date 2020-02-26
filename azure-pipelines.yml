@@ -43,7 +43,7 @@ stages:
     parameters:
       environmentNameSuffix: phoenix
       environmentAutoDelete: true
-      azureSubscription: 'LoGIC DEV'
+      azureSubscription: 'KMD Momentum Internal'
       instanceId: p$(Build.BuildId)
       resourceGroupLocation: westeurope
       applicationInsightsName: kmd-momentum-mea-phoenix-ai
@@ -61,7 +61,7 @@ stages:
     parameters:
       environmentNameSuffix: shareddev
       environmentAutoDelete: false
-      azureSubscription: 'LoGIC DEV'
+      azureSubscription: 'KMD Momentum Internal'
       instanceId: shareddev
       resourceGroupLocation: westeurope
       applicationInsightsName: kmd-momentum-mea-shareddev-ai
