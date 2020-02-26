@@ -1,8 +1,7 @@
-﻿using System.Net;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
+using System.Net;
+using System.Threading.Tasks;
 
 namespace Kmd.Momentum.Mea.Api.Controllers
 {
