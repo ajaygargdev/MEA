@@ -1,11 +1,11 @@
 parameters:
-  azureSubscription: 'LoGIC DEV'
+  azureSubscription: 'KMD Momentum Internal'
   environmentNameSuffix: phoenix
   environmentAutoDelete: false
   instanceId: p12345
   resourceGroupLocation: westeurope
   applicationInsightsName: kmd-momentum-mea-shareddev-ai
-  applicationInsightsResourceGroup: kmd-momentum-mea-shareddev-rg
+  applicationInsightsResourceGroup: kmd-momentum-mea-rg
   diagnosticSeqServerUrl: https://myseq.com/
   diagnosticSeqApiKey: <secret>
   webAppServicePlanSku: B1
